@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/com.refactech.driibo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView style="@style/WizardPageTitle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="always"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp" >
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_community"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="所属社区"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_house_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="房屋地址"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_house_owner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="房主姓名"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_house_owner_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="房主电话"
+                android:inputType="text|phone"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_house_custodian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="管理人"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_house_custodian_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="管理人电话"
+                android:inputType="text|phone"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_inspection_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="检查时间"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_inspection_man"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="检查人员"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActionBar-PullToRefresh/ActionBar-PullToRefresh.iml" filepath="$PROJECT_DIR$/ActionBar-PullToRefresh/ActionBar-PullToRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AppMsg_lib/AppMsg_lib.iml" filepath="$PROJECT_DIR$/AppMsg_lib/AppMsg_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ByakuGallery_lib/ByakuGallery_lib.iml" filepath="$PROJECT_DIR$/ByakuGallery_lib/ByakuGallery_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Holo_library/Holo_library.iml" filepath="$PROJECT_DIR$/Holo_library/Holo_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Holo_preferences/Holo_preferences.iml" filepath="$PROJECT_DIR$/Holo_preferences/Holo_preferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Holo_slider/Holo_slider.iml" filepath="$PROJECT_DIR$/Holo_slider/Holo_slider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimationLib/ListViewAnimationLib.iml" filepath="$PROJECT_DIR$/ListViewAnimationLib/ListViewAnimationLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialDesign/MaterialDesign.iml" filepath="$PROJECT_DIR$/MaterialDesign/MaterialDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PinnedSectionList_lib/PinnedSectionList_lib.iml" filepath="$PROJECT_DIR$/PinnedSectionList_lib/PinnedSectionList_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmoothProgress_circular_lib/SmoothProgress_circular_lib.iml" filepath="$PROJECT_DIR$/SmoothProgress_circular_lib/SmoothProgress_circular_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmoothProgress_lib/SmoothProgress_lib.iml" filepath="$PROJECT_DIR$/SmoothProgress_lib/SmoothProgress_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeBackLayout_lib/SwipeBackLayout_lib.iml" filepath="$PROJECT_DIR$/SwipeBackLayout_lib/SwipeBackLayout_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XNGA/XNGA.iml" filepath="$PROJECT_DIR$/XNGA/XNGA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jumping_beans_lib/jumping_beans_lib.iml" filepath="$PROJECT_DIR$/jumping_beans_lib/jumping_beans_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ldrawer_library/ldrawer_library.iml" filepath="$PROJECT_DIR$/ldrawer_library/ldrawer_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/material_widget_lib/material_widget_lib.iml" filepath="$PROJECT_DIR$/material_widget_lib/material_widget_lib.iml" />
+    </modules>
+  </component>
+</project>

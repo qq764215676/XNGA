@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp" >
+        
+    <com.gc.materialdesign.views.ButtonFlat
+        android:id="@+id/btn_check"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/bg_color"
+        android:gravity="center"
+        android:text="检查"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" >
+    </com.gc.materialdesign.views.ButtonFlat>
+        
+    <com.material.widget.FloatingEditText
+        android:id="@+id/et_pwd_new"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/btn_check"
+        android:layout_marginRight="5dp"
+        android:drawableLeft="@drawable/ic_login_password"
+        android:drawablePadding="0dp"
+        android:hint="新密码"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        widget:floating_edit_text_color="#ADADAD"
+        widget:floating_edit_text_highlighted_color="@color/bg_color"
+        widget:floating_edit_text_hint_scale="0.7"
+        widget:floating_edit_text_underline_height="1.5dp"
+        widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+
+    </RelativeLayout>
+    
+    <com.material.widget.FloatingEditText
+        android:id="@+id/et_pwd_new_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:drawableLeft="@drawable/ic_login_password"
+        android:drawablePadding="0dp"
+        android:hint="新密码确认"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        widget:floating_edit_text_color="#ADADAD"
+        widget:floating_edit_text_highlighted_color="@color/bg_color"
+        widget:floating_edit_text_hint_scale="0.7"
+        widget:floating_edit_text_underline_height="1.5dp"
+        widget:floating_edit_text_underline_highlighted_height="2dp" />
+    
+    <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/btn_change_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20dp"
+        	android:layout_marginRight="20dp"
+            android:background="@color/bg_color"
+            android:gravity="center"
+            android:text="确认修改"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    
+
+</LinearLayout>

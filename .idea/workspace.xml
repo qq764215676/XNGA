@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c37fc744-b355-4a65-b79e-7b62fe3ab826" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/XNGA/XNGA.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/YSKJ_NLGA.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/classes.dex" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/actionbar-pulltorefresh-e1306f0df5b14aceec34b252bdfec463.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/afinal-bf06f5d40f7b9d6ef766ae0a30411b42.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/android-support-v4-d054af309742cd2705a254049d776403.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/appmsg_lib-237fd437918e3d66f9ae7328c896a78c.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/byakugallery_lib-159555c5b20fe54b44920e25941fb16f.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/gesture-imageview-e1c6f002032529cfe0e2e0ffc2e43fda.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/holo_library-78d5c1f80035a9a72754b2ddd2ec3242.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/holo_preferences-b6fbb2bcc0af46201cec12df4c25af65.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/holo_slider-22d3b1f90c013ad25aac87637cc9f80e.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/jsoup-1.8.3-f6ba72e4d0df8346b829cc3aab00ca7e.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/jumping_beans_lib-a8f00bd2ce255d5325d8e86be127423d.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/ldrawer_library-e6b9cd1145f772be8e23aa332c794165.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/listviewanimationlib-233ddf84af1e917d4a9c6023bc1c006b.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/locSDK_3.3-a6c0199bef398610c1b26bbe5adbab3a.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/material_widget_lib-4471d35a6180bc7cdde31fc9c107d19f.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/materialdesign-6d83e285f82a16f4c06d52e79303a8a2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/nineoldandroids-2.4.0-c9b1202e47e91096f17744f4718a6593.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/okhttp-2.5.0-af32ba512bff71fd4ff8dc10183b82a0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/okio-1.6.0-912828e021b26870451b21dbf6722f62.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/pinnedsectionlist_lib-720cfdc3ae92f02d402fc0e80a57a8a8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/smoothprogress_circular_lib-68144dd5755281253924fb79a5f15276.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/smoothprogress_lib-25384b992d37b70873e03f5292eb73c6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/swipebacklayout_lib-20e54e866accf361854bf41bc47400a5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/dexedLibs/xUtils-2.6.14-fd9b9332a2847282f9f04ea4f853f421.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/jarlist.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/bin/resources.ap_" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/com/devspark/appmsg/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/com/diegocarloslima/byakugallery/lib/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/com/gc/materialdesign/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/com/ikimuhendis/ldrawer/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/com/material/widget/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/fr/castorflex/android/circularprogressbar/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/fr/castorflex/android/smoothprogressbar/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/me/imid/swipebacklayout/lib/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/net/frakbot/jumpingbeans/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/org/holoeverywhere/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/org/holoeverywhere/preference/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/org/holoeverywhere/slider/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/XNGA/gen/uk/co/senab/actionbarpulltorefresh/library/R.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ch/fshi/btoppnet/BTDeviceListActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ch/fshi/btoppnet/BTDeviceListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/fragment/CivilDrawerFragment$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/fragment/CivilDrawerFragment$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/fragment/CivilDrawerFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/fragment/CivilDrawerFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/activity/CivilLoginActivity$1.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/activity/CivilLoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/activity/CivilLoginActivity$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/activity/CivilLoginActivity$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/activity/CivilLoginActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/activity/CivilLoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/activity/CivilMainActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/activity/CivilMainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectBikeActivity$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectBikeActivity$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectBikeActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectBikeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/CollectBikeFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/CollectBikeFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectCarActivity$1.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectCarActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectCarActivity$2.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectCarActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectCarActivity$3.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectCarActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectCarActivity$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectCarActivity$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectCarActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectCarActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/CollectCarFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/CollectCarFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectGoodActivity$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectGoodActivity$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectGoodActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectGoodActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/CollectGoodFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/CollectGoodFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectHouseActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectHouseActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectOrderActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectOrderActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectPeopleActivity$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectPeopleActivity$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectPeopleActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectPeopleActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/CollectPeopleFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/CollectPeopleFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectRoadActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/CollectRoadActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/DrawerFragment$1.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/DrawerFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/DrawerFragment$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/DrawerFragment$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/DrawerFragment$AsyncLoaderLogin.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/DrawerFragment$AsyncLoaderLogin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/DrawerFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/DrawerFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/LoginActivity$1.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/LoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/LoginActivity$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/LoginActivity$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/LoginActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/MainActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/anim/dialog/MsgSlidingDialog.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/anim/dialog/MsgSlidingDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/NewsDetailActivity$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/NewsDetailActivity$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/NewsDetailActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/NewsDetailActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/NewsFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/NewsFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment1$2.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment1$3.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment2$1.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment2$2.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment2$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment3$2.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment3$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment3$4.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment3$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment4$1.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment4$3.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderFragment4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment1$2.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment1$3.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment2$1.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment2$2.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment2$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment3$1.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment3$3.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment3$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment4$1.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment4$2.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHomeFragment4$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHouseFragment1$2.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderHouseFragment1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderInquestFragment1$2.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderInquestFragment1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderInquestFragment1$3.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderInquestFragment1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderInquestFragment2$2.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/record/pages/OrderInquestFragment2$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/anim/dialog/ProgressHelper.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/anim/dialog/ProgressHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$attr.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/gc/materialdesign/R$attr.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/gc/materialdesign/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$attr.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$attr.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$attr.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/me/imid/swipebacklayout/lib/R$attr.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/me/imid/swipebacklayout/lib/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$attr.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$attr.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$attr.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$attr.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$bool.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$bool.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$bool.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$bool.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$bool.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/devspark/appmsg/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/devspark/appmsg/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/gc/materialdesign/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/gc/materialdesign/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/ikimuhendis/ldrawer/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/ikimuhendis/ldrawer/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$color.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$dimen.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/ikimuhendis/ldrawer/R$dimen.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/ikimuhendis/ldrawer/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$dimen.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$dimen.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$dimen.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$dimen.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$dimen.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$dimen.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$dimen.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$id.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$id.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$id.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$id.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$id.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$integer.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$integer.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$integer.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$integer.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$integer.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$integer.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$integer.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$integer.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$string.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$string.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$string.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$string.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/net/frakbot/jumpingbeans/R$string.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/net/frakbot/jumpingbeans/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$string.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$string.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$string.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/uk/co/senab/actionbarpulltorefresh/library/R$string.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/uk/co/senab/actionbarpulltorefresh/library/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$string.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$style.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$style.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$style.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/me/imid/swipebacklayout/lib/R$style.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/me/imid/swipebacklayout/lib/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$style.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$style.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$style.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/uk/co/senab/actionbarpulltorefresh/library/R$style.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/uk/co/senab/actionbarpulltorefresh/library/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$style.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$styleable.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/diegocarloslima/byakugallery/lib/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/gc/materialdesign/R$styleable.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/gc/materialdesign/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$styleable.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/material/widget/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$styleable.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/circularprogressbar/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$styleable.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/fr/castorflex/android/smoothprogressbar/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/me/imid/swipebacklayout/lib/R$styleable.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/me/imid/swipebacklayout/lib/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$styleable.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$styleable.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/preference/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$styleable.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/org/holoeverywhere/slider/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$styleable.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/nlga/activity/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordDetailActivity$SimpleAdapter.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordDetailActivity$SimpleAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordDetailActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordDetailActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHomeActivity$3.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHomeActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHomeActivity$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHomeActivity$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHomeActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHomeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/RecordHomeListFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/RecordHomeListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHouseActivity$3.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHouseActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHouseActivity$AsyncLoader.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHouseActivity$AsyncLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHouseActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordHouseActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/RecordHouseListFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/RecordHouseListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordInquestActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/RecordInquestActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/RecordInquestListFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/RecordInquestListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/RecordListFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/RecordListFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/wizardpager/ui/ReviewFragment$ReviewAdapter.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/wizardpager/ui/ReviewFragment$ReviewAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/wizardpager/ui/ReviewFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/wizardpager/ui/ReviewFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/SearchCaseFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/SearchCaseFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/fragment/SearchComplaintFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/civil/fragment/SearchComplaintFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/SearchFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/SearchFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/SearchLostFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/SearchLostFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/SearchNewsFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/SearchNewsFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/SearchPeopleFragment.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/fragment/SearchPeopleFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/wizardpager/ui/StepPagerStrip.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/wizardpager/ui/StepPagerStrip.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/anim/dialog/SuccessTickView.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/anim/dialog/SuccessTickView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/com/devspark/msg/ToastMsg.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/com/devspark/msg/ToastMsg.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/WelcomeActivity.class" afterPath="$PROJECT_DIR$/XNGA/bin/classes/ys/oa/activity/WelcomeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/.classpath" afterPath="$PROJECT_DIR$/XNGA/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/.project" afterPath="$PROJECT_DIR$/XNGA/.project" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/widget/AbRotate3dAnimation.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/widget/AbRotate3dAnimation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/AndroidManifest.xml" afterPath="$PROJECT_DIR$/XNGA/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/widget/AutoGridView.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/widget/AutoGridView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/widget/AutoScrollView.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/widget/AutoScrollView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/gen/ys/nlga/activity/BuildConfig.java" afterPath="$PROJECT_DIR$/XNGA/gen/ys/nlga/activity/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/CaseEnity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/CaseEnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/civil/activity/CivilMainActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/civil/activity/CivilMainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/civil/activity/CivilMenuActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/civil/activity/CivilMenuActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectBikeActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectBikeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectCarActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectCarActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/CollectCarEnity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/CollectCarEnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectGoodActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectGoodActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/CollectGoodEnity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/CollectGoodEnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectHouseActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectHouseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectOrderActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectOrderActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectPeopleActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectPeopleActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/CollectPeopleEnity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/CollectPeopleEnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectRoadActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/CollectRoadActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/civil/activity/ComplaintActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/civil/activity/ComplaintActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/ComplaintEnity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/ComplaintEnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/net/post/DataSetList.java" afterPath="$PROJECT_DIR$/XNGA/src/com/net/post/DataSetList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/anim/dialog/DialogLoading.java" afterPath="$PROJECT_DIR$/XNGA/src/com/anim/dialog/DialogLoading.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/net/post/DocInfor.java" afterPath="$PROJECT_DIR$/XNGA/src/com/net/post/DocInfor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/update/down/DownDB.java" afterPath="$PROJECT_DIR$/XNGA/src/com/update/down/DownDB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/update/down/DownDBHelper.java" afterPath="$PROJECT_DIR$/XNGA/src/com/update/down/DownDBHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/update/down/DownloadInfo.java" afterPath="$PROJECT_DIR$/XNGA/src/com/update/down/DownloadInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/update/down/FileDownUtil.java" afterPath="$PROJECT_DIR$/XNGA/src/com/update/down/FileDownUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/update/down/FileDownloadThread.java" afterPath="$PROJECT_DIR$/XNGA/src/com/update/down/FileDownloadThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/GridMenuAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/GridMenuAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListCaseAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListCaseAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListCollectBikeAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListCollectBikeAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListCollectCarAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListCollectCarAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListCollectGoodAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListCollectGoodAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListCollectPeopleAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListCollectPeopleAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/civil/adapter/ListComplaintAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/civil/adapter/ListComplaintAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListLostAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListLostAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListNewsAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListNewsAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListPeopleAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListPeopleAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListRecordAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListRecordAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListRecordHomeAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListRecordHomeAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListRecordHouseAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListRecordHouseAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListRecordInquestAdapter.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/adapter/ListRecordInquestAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/LostEnity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/LostEnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/MainActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/MenuActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/MenuActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/MenusEnity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/MenusEnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/update/down/MultiThreadDownload.java" afterPath="$PROJECT_DIR$/XNGA/src/com/update/down/MultiThreadDownload.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/NewsDetailActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/NewsDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/NewsEnity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/NewsEnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/OtherActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/OtherActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/PeopleEnity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/PeopleEnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/net/post/PostHttp.java" afterPath="$PROJECT_DIR$/XNGA/src/com/net/post/PostHttp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/gen/ys/nlga/activity/R.java" afterPath="$PROJECT_DIR$/XNGA/gen/ys/nlga/activity/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/RecordActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/RecordActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/RecordHomeActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/RecordHomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/RecordHouseActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/RecordHouseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/RecordInquestActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/RecordInquestActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/SearchActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/SearchActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/SectionEnity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/enity/SectionEnity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/refactech/driibo/UnCeHandler.java" afterPath="$PROJECT_DIR$/XNGA/src/com/refactech/driibo/UnCeHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/util/Util.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/util/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/WelcomeActivity.java" afterPath="$PROJECT_DIR$/XNGA/src/ys/oa/activity/WelcomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/net/post/XMLContentHandlerForList.java" afterPath="$PROJECT_DIR$/XNGA/src/com/net/post/XMLContentHandlerForList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/net/post/XmlPackage.java" afterPath="$PROJECT_DIR$/XNGA/src/com/net/post/XmlPackage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/net/post/XmlParseForDocDetail.java" afterPath="$PROJECT_DIR$/XNGA/src/com/net/post/XmlParseForDocDetail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/src/com/net/post/XmlParseForDocList.java" afterPath="$PROJECT_DIR$/XNGA/src/com/net/post/XmlParseForDocList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/action_back_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/action_back_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_collect.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_collect.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_bike.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_bike.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_car.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_car.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_good.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_good.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_house.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_house.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_order.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_order.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_people.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_people.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_road.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_collect_road.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_complaint.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_complaint.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_main_civil.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_main_civil.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_menu.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_news_detail.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_news_detail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_record.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_record.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_search.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/activity_welcome.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/activity_welcome.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/anim/anim_loading.xml" afterPath="$PROJECT_DIR$/XNGA/res/anim/anim_loading.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/values/arrays.xml" afterPath="$PROJECT_DIR$/XNGA/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/btn_login_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/btn_login_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/btn_welcome_civil_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/btn_welcome_civil_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/btn_welcome_police_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/btn_welcome_police_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/case_list_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/case_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/collect_bike_list_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/collect_bike_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/collect_car_list_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/collect_car_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/collect_good_list_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/collect_good_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/collect_people_list_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/collect_people_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/complaint_list_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/complaint_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/anim/dialog_slide_in.xml" afterPath="$PROJECT_DIR$/XNGA/res/anim/dialog_slide_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/anim/dialog_slide_out.xml" afterPath="$PROJECT_DIR$/XNGA/res/anim/dialog_slide_out.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/gv_item_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/gv_item_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/list_section.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/list_section.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/list_section_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/list_section_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/login_checkbox_select.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/login_checkbox_select.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/login_edit_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/login_edit_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/lost_list_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/lost_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/lv_item_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/lv_item_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/lv_news_item_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/lv_news_item_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/main_grid_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/main_grid_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/main_head.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/main_head.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/news_list_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/news_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/XNGA/.settings/org.eclipse.core.resources.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/XNGA/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/people_list_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/people_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/project.properties" afterPath="$PROJECT_DIR$/XNGA/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/record_list_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/record_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/set_checkbox_select.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/set_checkbox_select.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/anim/slide_in.xml" afterPath="$PROJECT_DIR$/XNGA/res/anim/slide_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/sort_item.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/sort_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/sort_item_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/sort_item_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/sort_list.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/sort_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/tag_plus_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/tag_plus_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/drawable/tag_sub_selector.xml" afterPath="$PROJECT_DIR$/XNGA/res/drawable/tag_sub_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/layout/view_loading.xml" afterPath="$PROJECT_DIR$/XNGA/res/layout/view_loading.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/anim/welcome_fade_btn.xml" afterPath="$PROJECT_DIR$/XNGA/res/anim/welcome_fade_btn.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/anim/welcome_fade_in.xml" afterPath="$PROJECT_DIR$/XNGA/res/anim/welcome_fade_in.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/anim/welcome_fade_in_scale.xml" afterPath="$PROJECT_DIR$/XNGA/res/anim/welcome_fade_in_scale.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XNGA/res/anim/welcome_fade_out.xml" afterPath="$PROJECT_DIR$/XNGA/res/anim/welcome_fade_out.xml" />
+    </list>
+    <ignored path="NanningPSB.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="NanningPSB" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="XNGA.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/XNGA/XNGA.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/XNGA" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NanningPSB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NanningPSB" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c37fc744-b355-4a65-b79e-7b62fe3ab826" name="Default" comment="" />
+      <created>1451822936055</created>
+      <option name="number" value="Default" />
+      <updated>1451822936055</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="728" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/XNGA/XNGA.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XNGA/XNGA.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActionBar-PullToRefresh/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15979381">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XNGA/XNGA.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

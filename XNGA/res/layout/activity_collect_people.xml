@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_collect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fadingEdgeLength="0dp"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/ll_collect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_listitem_shot"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/iv_collect_img"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_margin="5dp"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/add_img_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/img_pp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="28dp"
+            android:paddingRight="10dp"
+            android:paddingTop="15dp" >
+
+            <TextView
+                android:id="@+id/tv_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:text="图片采集"
+                android:textColor="#3C3C3C"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <!-- 身份证正面照布局 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_img" >
+
+                        <ImageView
+                            android:id="@+id/iv_id_front"
+                            android:layout_width="match_parent"
+                            android:layout_height="85dp"
+                            android:layout_margin="3dp"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/add_img_bg" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/filter_bg"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="3dp"
+                        android:text="身份证正面照"
+                        android:textColor="#6c6c6c"
+                        android:textSize="12sp" />
+                </LinearLayout>
+				
+                <!-- 身份证背面照布局 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_img" >
+
+                        <ImageView
+                            android:id="@+id/iv_id_back"
+                            android:layout_width="match_parent"
+                            android:layout_height="85dp"
+                            android:layout_margin="3dp"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/add_img_bg" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/filter_bg"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="3dp"
+                        android:text="身份证反面照"
+                        android:textColor="#6c6c6c"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            	<LinearLayout
+                	android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:layout_marginTop="3dp"
+                	android:orientation="horizontal" >
+				
+				<!-- 真人正面照布局 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_img" >
+
+                        <ImageView
+                            android:id="@+id/iv_photo"
+                            android:layout_width="match_parent"
+                            android:layout_height="85dp"
+                            android:layout_margin="3dp"
+                            android:gravity="center"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/add_img_bg" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/filter_bg"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="3dp"
+                        android:text="真人正面照"
+                        android:textColor="#6c6c6c"
+                        android:textSize="12sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/collect_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_img_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="名称"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_img_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="请填写图片名称"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            
+            <!-- 获取身份证信息布局 -->
+            <RelativeLayout
+                android:id="@+id/rl_id_identify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_id_identify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="10dp"
+                    android:text="身份证识别"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_get_people_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_id"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+                
+                <TextView
+                    android:id="@+id/tv_id_notify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/tv_id_identify"
+                    android:layout_toLeftOf="@id/btn_get_people_info"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="5dp"
+                    android:text="点击图标以对身份证信息进行识别"
+                    android:textColor="#6C6C6C"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+                
+                <ProgressBar
+        			android:id="@+id/upload_progress"
+        			style="?android:attr/progressBarStyleHorizontal"
+        			android:layout_width="match_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_below="@id/tv_id_notify"
+        			android:max="100"
+        			android:progress="0"
+        			android:visibility="gone" />
+                
+                </RelativeLayout>
+                
+            <ImageView
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:background="@drawable/collect_line" />
+            
+            <!-- 取消EditText焦点 -->
+            <LinearLayout
+				android:focusable="true"
+				android:focusableInTouchMode="true"
+				android:layout_width="0px"
+				android:layout_height="0px"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_people_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="姓名"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_get_people_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_id"
+                    android:text="身份证扫描"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_people_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_people_id"
+                    android:layout_toRightOf="@+id/tv_people_name"
+                    android:background="@android:color/transparent"
+                    android:hint="请填写姓名"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_people_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="性别"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_people_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="请填写性别"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_people_nation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="民族"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_people_nation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="请填写所属民族"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_people_birthday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="出生日期"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_people_birthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="请填写出生日期"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_people_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="地址"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_people_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left|top"
+                    android:background="@android:color/transparent"
+                    android:hint="请填写居住地址"
+                    android:inputType="textMultiLine"
+                    android:minLines="2"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+                
+                <RelativeLayout
+                   android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:orientation="horizontal"  >
+                
+                <TextView
+                    android:id="@+id/tv_people_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="身份证"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                
+                <ImageButton
+                    android:id="@+id/btn_search_people_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_search_id"
+                    android:text="身份证扫描"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp"
+                    android:visibility="gone" />
+                
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/et_people_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/transparent"
+                    android:hint="请填写身份证号"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <RelativeLayout
+                   	android:layout_width="match_parent"
+                	android:layout_height="wrap_content"  >
+                    
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="地点"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_get_gps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_location"
+                    android:text="GPS获取"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+                
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/et_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left|top"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:hint="点击图标获取当前地点"
+                    android:inputType="textMultiLine"
+                    android:minLines="2"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="备注"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="top"
+                    android:hint="添加备注"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="2dp"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

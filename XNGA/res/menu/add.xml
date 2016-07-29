@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+     <!-- <item
+        android:id="@+id/msg"
+        android:title="检查信息"
+        android:icon="@drawable/ic_msgbubble"
+        android:orderInCategory="90"
+        android:showAsAction="always"/> -->
+    <item
+        android:id="@+id/action_add"
+        android:title="新建"
+        android:icon="@drawable/ic_action_add"
+        android:orderInCategory="100"
+        android:showAsAction="always"/>
+</menu>

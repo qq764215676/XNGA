@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="appmsg_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AppMsg_lib/bin/appmsg_lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

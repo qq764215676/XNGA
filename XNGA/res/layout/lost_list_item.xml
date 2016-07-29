@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lv_news_item_selector"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="物品名称 : "
+            android:textColor="#ADADAD"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lost_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="黑色钱包"
+            android:textColor="#6C6C6C"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="特征描述 : "
+            android:textColor="#ADADAD"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lost_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:text="黑色钱包一个，内有1110元现金，一张农业银行卡：622848 083174 777914、北部湾银行卡：6223 3500 1174 8735."
+            android:textColor="#6C6C6C"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="联系电话 : "
+            android:textColor="#ADADAD"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lost_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="31232132"
+            android:textColor="#6C6C6C"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布日期 : "
+            android:textColor="#ADADAD"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_lost_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014-11-26"
+            android:textColor="#6C6C6C"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

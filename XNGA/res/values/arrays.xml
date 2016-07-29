@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="itemSort">
+        <item>类型一</item>
+        <item>类型二</item>
+        <item>类型三</item>
+        <item>其他</item>
+    </array>
+    <array name="orderSort">
+        <item>旅馆巡查</item>
+        <item>网吧巡查</item>
+        <item>酒店巡查</item>
+        <item>其他</item>
+    </array>
+    <array name="alarmSort">
+        <item>电话报警</item>
+        <item>短信报警</item>
+        <item>网络报警</item>
+        <item>其他</item>
+    </array>
+    <array name="materialSort">
+        <item>有材料</item>
+        <item>无材料</item>
+    </array>
+    <array name="complaintSort">
+        <item>咨询</item>
+        <item>投诉</item>
+        <item>表扬</item>
+        <item>建议</item>
+        <item>举报</item>
+        <item>求助</item>
+        <item>其他</item>
+    </array>
+
+</resources>

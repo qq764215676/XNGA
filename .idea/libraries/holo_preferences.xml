@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="holo_preferences">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Holo_preferences/bin/holo_preferences.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

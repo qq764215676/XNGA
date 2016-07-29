@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="swipebacklayout_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SwipeBackLayout_lib/bin/swipebacklayout_lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,88 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Holo.Theme.Light">
+        <item name="android:windowAnimationStyle">@style/transition_animation</item>
+        <item name="android:windowBackground">@drawable/main_bg</item>
+        <item name="android:actionBarStyle">@style/ActionbarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/actionbar_back</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionbarOverFlowStyle</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+    
+    <style name="AppThemeSwipeBack" parent="Holo.Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/transition_animation</item>
+        <item name="android:windowBackground">@drawable/main_bg</item>
+        <item name="android:actionBarStyle">@style/ActionbarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/actionbar_back</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionbarOverFlowStyle</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppThemeWelcome" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- 默认Activity跳转动画 -->
+    <style name="default_animation" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <!-- Activity跳转动画 -->
+    <style name="transition_animation" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/open_next</item>
+        <item name="android:activityOpenExitAnimation">@anim/close_main</item>
+        <item name="android:activityCloseEnterAnimation">@anim/open_main</item>
+        <item name="android:activityCloseExitAnimation">@anim/close_next</item>
+    </style>
+
+    <style name="ActionbarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/header_bar</item>
+        <item name="android:titleTextStyle">@style/ActionbarTitleTextStyle</item>
+    </style>
+
+    <style name="ActionbarTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">#7f000000</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.2</item>
+    </style>
+
+    <style name="ActionbarOverFlowStyle" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+    <!-- Loading…… -->
+    <style name="LoadingText" parent="android:TextAppearance.Holo.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="PocketProgressBar" parent="SmoothProgressBar">
+        <item name="spb_stroke_separator_length">4dp</item>
+        <item name="spb_sections_count">4</item>
+        <item name="spb_speed">1.3</item>
+        <item name="spb_progressiveStart_speed">1.3</item>
+        <item name="spb_progressiveStop_speed">1.3</item>
+        <item name="spb_interpolator">spb_interpolator_acceleratedecelerate</item>
+        <item name="spb_colors">@array/pocket_bar_bg_colors</item>
+        <item name="spb_progressiveStart_activated">true</item>
+        <item name="spb_generate_background_with_colors">false</item>
+    </style>
+
+    <style name="AppThemeGallery" parent="Holo.Theme.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

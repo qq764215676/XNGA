@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="libs1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/XNGA/libs/gesture-imageview.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/libs/xUtils-2.6.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/libs/locSDK_3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/libs/afinal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/libs/jsoup-1.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/libs/okio-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/libs/okhttp-2.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

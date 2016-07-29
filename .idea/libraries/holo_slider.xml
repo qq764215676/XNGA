@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="holo_slider">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Holo_slider/bin/holo_slider.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

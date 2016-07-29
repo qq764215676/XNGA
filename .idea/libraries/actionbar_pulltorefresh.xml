@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="actionbar-pulltorefresh">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ActionBar-PullToRefresh/bin/actionbar-pulltorefresh.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

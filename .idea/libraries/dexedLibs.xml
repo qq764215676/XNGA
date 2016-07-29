@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/gesture-imageview-f408838d7c7af4ecc91b2489621a5989.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/android-support-v4-84ad2000aaca5cdb5ed54ae4d091548c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/pinnedsectionlist_lib-f3738a8c5dfb4ca3243919b80f176493.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/byakugallery_lib-0ad276efec632bd5a83f589ecca47c7e.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/holo_library-a0369eeb2413134962a0a6db4a5085a1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/material_widget_lib-87a4aef185247d13a62fbc89d1fc4eaf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/okhttp-2.5.0-612985060d08a1f8c035ab03a1a9426a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/smoothprogress_circular_lib-239b0d90874831809398d6c6d10414d0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/materialdesign-26ece0d177139685039dbe010aeeae0d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/smoothprogress_lib-4eb6d190934fa6e1b4286a52abed5390.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/jumping_beans_lib-36104b392d308fce2ae16575941fd440.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/listviewanimationlib-e69654768d66a04fc246aa6c6d267c1c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/appmsg_lib-4733118c5b7d8f32b2d3e767afb308fa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/ldrawer_library-1b95393b5277fbebf0ce9fa24916fc6f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/holo_slider-e1f85f08856c4d4337efe02e901d4019.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/swipebacklayout_lib-43fa28bde368e00da7c247328ced3c2b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/jsoup-1.8.3-2889465ae8f88c6e7f94ec48cc818249.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/locSDK_3.3-928f140e33b8008e263c82c640086e35.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/xUtils-2.6.14-59f76fae1219766b435cdf1b3efb7769.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/holo_preferences-bf86999c72248672c4fdbba7bc466124.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/actionbar-pulltorefresh-83678c223713e6d78671d923701922cf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/nineoldandroids-2.4.0-f622da93c5ff19a4a3ce35e09a56c415.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/afinal-0f999f3d5064605089c383b400dfcb1a.jar!/" />
+      <root url="jar://$PROJECT_DIR$/XNGA/bin/dexedLibs/okio-1.6.0-f6650d8d3de4ea273f15d13555d68df6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

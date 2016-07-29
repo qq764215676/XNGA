@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lv_news_item_selector"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="签到时间： "
+                android:textColor="#ADADAD"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_reg_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="黑色钱包"
+                android:textColor="#6C6C6C"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="二维码信息： "
+                android:textColor="#ADADAD"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_reg_qrcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="男"
+                android:textColor="#6C6C6C"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="签到地址： "
+                android:textColor="#ADADAD"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_reg_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="31232132"
+                android:textColor="#6C6C6C"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="签到手机时间： "
+                android:textColor="#ADADAD"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_local_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2014-11-26"
+                android:textColor="#6C6C6C"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

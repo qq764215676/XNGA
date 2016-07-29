@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/com.refactech.driibo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView style="@style/WizardPageTitle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="always"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp" >
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_inquest_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="勘验时间"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_inquest_end_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="勘验结束时间"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_inquest_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="勘验地点"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_inquest_leader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="勘验指挥人员"
+                android:inputType="text"
+                android:lineSpacingExtra="2dp"
+                android:paddingTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_inquest_member"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="勘验检查人员"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="2dp"
+                android:paddingTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

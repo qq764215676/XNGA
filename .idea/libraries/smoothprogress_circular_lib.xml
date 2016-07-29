@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="smoothprogress_circular_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SmoothProgress_circular_lib/bin/smoothprogress_circular_lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

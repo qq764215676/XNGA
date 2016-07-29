@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <com.material.widget.FloatingEditText
+        android:id="@+id/et_account"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_login_username"
+        android:drawablePadding="0dp"
+        android:hint="用户名"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        widget:floating_edit_text_color="#ADADAD"
+        widget:floating_edit_text_highlighted_color="@color/bg_color"
+        widget:floating_edit_text_hint_scale="0.7"
+        widget:floating_edit_text_underline_height="1.5dp"
+        widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+    <com.material.widget.FloatingEditText
+        android:id="@+id/et_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="0dp"
+        android:drawableLeft="@drawable/ic_login_password"
+        android:drawablePadding="0dp"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        widget:floating_edit_text_color="#ADADAD"
+        widget:floating_edit_text_highlighted_color="@color/bg_color"
+        widget:floating_edit_text_hint_scale="0.7"
+        widget:floating_edit_text_underline_height="1.5dp"
+        widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" >
+
+        <com.gc.materialdesign.views.CheckBox
+            android:id="@+id/cb_is_keep_psw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/bg_color"
+            materialdesign:checked="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/cb_is_keep_psw"
+            android:text="记住密码"
+            android:textColor="#ADADAD"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_auto_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="自动登录"
+            android:textColor="#ADADAD"
+            android:textSize="17sp" />
+
+        <com.gc.materialdesign.views.CheckBox
+            android:id="@+id/cb_is_autologin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_auto_login"
+            android:background="@color/bg_color"
+            materialdesign:checked="false" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/login_checkbox_select"
+            android:gravity="center_vertical"
+            android:text="记住密码"
+            android:textColor="#ADADAD"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/login_checkbox_select"
+            android:gravity="center_vertical"
+            android:text="自动登录"
+            android:textColor="#ADADAD"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
+
+        <com.gc.materialdesign.views.ButtonFlat
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/bg_color"
+            android:gravity="center"
+            android:text="登    录"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:id="@+id/fl_loading"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/bg_color"
+            android:focusable="false"
+            android:visibility="gone" >
+
+            <com.gc.materialdesign.views.ProgressBarIndeterminate
+                android:id="@+id/pb_loading"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_gravity="bottom"
+                android:background="#8dbfe7" />
+
+            <TextView
+                android:id="@+id/tv_loading"
+                style="@style/LoadingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:text="正在登录......"
+                android:textColor="@android:color/white" />
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

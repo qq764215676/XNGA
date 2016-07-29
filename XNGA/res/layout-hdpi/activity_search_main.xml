@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ys.oa.widget.AutoGridView
+        android:id="@+id/gv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menu_pressed"
+        android:columnWidth="75dp"
+        android:gravity="center"
+        android:horizontalSpacing="0.5dip"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:paddingBottom="0.5dip"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="0.5dip" />
+
+</LinearLayout>

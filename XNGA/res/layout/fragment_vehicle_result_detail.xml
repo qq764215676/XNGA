@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC" >
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical" >
+        <TextView
+            android:text="车主身份信息"
+            android:textStyle="bold"
+            android:textColor="#A9A9A9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/tv_vehicle_result_detial_owner_name"
+            android:text="贾福保"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/tv_vehicle_result_detial_owner_id"
+            android:text="450211198010260018"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+    </LinearLayout>
+    
+    <View
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="车牌号"
+            android:textStyle="bold"
+            android:textColor="#A9A9A9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/tv_vehicle_result_detial_car_id"
+            android:text="桂BW2936"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+    </LinearLayout>
+    
+    <View
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="发动机号(电机号)"
+            android:textStyle="bold"
+            android:textColor="#A9A9A9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/tv_vehicle_result_detial_veh_engine"
+            android:text="00717586"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+    </LinearLayout>
+    
+    <View
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="车架号"
+            android:textStyle="bold"
+            android:textColor="#A9A9A9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/tv_vehicle_result_detial_veh_vin"
+            android:text="SY5030XXYD-L7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+    </LinearLayout>
+    
+    <View
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="颜色"
+            android:textStyle="bold"
+            android:textColor="#A9A9A9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/tv_vehicle_result_detial_veh_color"
+            android:text="白"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+    </LinearLayout>
+    
+    <View
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="名称"
+            android:textStyle="bold"
+            android:textColor="#A9A9A9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/tv_vehicle_result_detial_typename"
+            android:text="金杯牌"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+    </LinearLayout>
+    
+    <View
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="时间"
+            android:textStyle="bold"
+            android:textColor="#A9A9A9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/tv_vehicle_result_detial_time"
+            android:text="null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+    </LinearLayout>
+    
+    <View
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:text="地点"
+            android:textStyle="bold"
+            android:textColor="#A9A9A9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/tv_vehicle_result_detial_address"
+            android:text="null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+    </LinearLayout>
+    
+    <View
+        android:background="#808080"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView
+            android:text="备注"
+            android:textStyle="bold"
+            android:textColor="#A9A9A9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/tv_vehicle_result_detial_info"
+            android:text="null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+    </LinearLayout>
+    
+</LinearLayout>
+</ScrollView>

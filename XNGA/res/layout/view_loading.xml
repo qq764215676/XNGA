@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:visibility="gone" >
+
+    <LinearLayout
+        android:id="@+id/ll_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <View
+            android:id="@+id/pd_circle1"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/blue_circle"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/pd_circle2"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/blue_circle"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/pd_circle3"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_margin="1dp"
+            android:background="@drawable/blue_circle"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_collect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fadingEdgeLength="0dp"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/ll_collect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/collect_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_listitem_shot" >
+
+            <ImageView
+                android:id="@+id/iv_collect_img"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_margin="5dp"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/add_img_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_img_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="名称"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_img_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="请填写图片名称"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_car_owner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="10dp"
+                    android:text="驾驶员身份信息"
+                    android:paddingLeft="30dp"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+             
+                 <LinearLayout
+                     android:id="@+id/driver_info_view" 
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_marginLeft="3dip"
+                     android:layout_centerVertical="true"
+                     android:layout_below="@id/tv_car_owner"
+                     >
+                <include
+                    layout="@layout/collect_add_driver_item_layout"
+				/> 
+				</LinearLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <RelativeLayout
+                android:id="@+id/riders_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+                <TextView
+                    android:id="@+id/tv_riders_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="同车人信息"
+                    android:textColor="#3C3C3C"
+                    android:paddingLeft="30dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                  <LinearLayout
+                     android:id="@+id/riders_info" 
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_below="@id/tv_riders_title"
+                     >
+                    <ListView
+				         android:id="@+id/riders_info_list" 
+				         android:layout_width="match_parent"
+				         android:layout_height="wrap_content"
+				       />    
+                  </LinearLayout>
+                <Button 
+			        android:id="@+id/read_riders_info"
+			        android:text="添加同车人身份信息"
+			        android:layout_below="@id/riders_info"
+			        android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="10dip" 
+					android:layout_gravity="center"  
+					android:layout_marginLeft="10dip" 
+					android:layout_marginRight="10dip"  
+				/> 
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/riders_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <RelativeLayout
+                android:id="@+id/bike_id_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_bike_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="车牌号"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:id="@+id/btn_get_bike_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_scan"
+                    android:text="车牌扫描"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_bike_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_bike_id"
+                    android:layout_toRightOf="@+id/tv_bike_id"
+                    android:background="@android:color/transparent"
+                    android:hint="请填入车牌号"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            
+              <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+          <RelativeLayout
+                android:id="@+id/veh_engine_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_bike_engine_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="发动机号"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:id="@+id/btn_get_bike_engine_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_scan"
+                    android:text="车牌扫描"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_bike_engine_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_bike_engine_id"
+                    android:layout_toRightOf="@+id/tv_bike_engine_id"
+                    android:background="@android:color/transparent"
+                    android:hint="请填入发动机号"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            
+              <ImageView
+                android:id="@+id/engine_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/collect_line" />
+
+            <RelativeLayout
+             	 android:id="@+id/veh_vin_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_bike_vin_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="车架号"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:id="@+id/btn_get_bike_vin_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_scan"
+                    android:text="车架扫描"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_bike_vin_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_bike_vin_id"
+                    android:layout_toRightOf="@+id/tv_bike_vin_id"
+                    android:background="@android:color/transparent"
+                    android:hint="请填入车架号"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+           
+
+            <ImageView
+                 android:id="@+id/vin_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/collect_line" />
+
+           
+            
+             <RelativeLayout
+                android:id="@+id/veh_color_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:visibility="gone"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_car_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="颜色"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_get_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_time"
+                    android:text="时间获取"
+                    android:visibility="gone"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_car_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_color"
+                    android:layout_toRightOf="@+id/tv_car_color"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/color_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@drawable/collect_line" />
+            
+            
+            <RelativeLayout
+                android:id="@+id/veh_typename_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:visibility="gone"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_car_typename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="名称"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_get_typename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_time"
+                    android:visibility="gone"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_car_typename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_typename"
+                    android:layout_toRightOf="@+id/tv_car_typename"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+            
+             <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_car_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="时间"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_get_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_time"
+                    android:text="时间获取"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_car_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_time"
+                    android:layout_toRightOf="@+id/tv_car_time"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:hint="点击图标获取当前时间"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_car_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="地点"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_get_gps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_location"
+                    android:text="GPS获取"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_car_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_gps"
+                    android:layout_toRightOf="@+id/tv_car_location"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:hint="点击图标获取当前地点"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            
+             <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <RelativeLayout
+                android:id="@+id/lon_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_long"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="经度"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_get_gps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_location"
+                    android:text="GPS获取"
+                    android:visibility="gone"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_long"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_gps"
+                    android:layout_toRightOf="@+id/tv_long"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:hint="经度"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+            
+            <ImageView
+                android:id="@+id/lat_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <RelativeLayout
+                android:id="@+id/lat_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_lat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="纬度"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_get_gps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_location"
+                    android:text="GPS获取"
+                    android:visibility="gone"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_lat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_gps"
+                    android:layout_toRightOf="@+id/tv_lat"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:hint="纬度"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+             <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="备注"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="top"
+                    android:hint="添加备注"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="2dp"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

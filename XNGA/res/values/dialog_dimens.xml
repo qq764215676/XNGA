@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+    <dimen name="dialog_title_txt">22sp</dimen>
+    <dimen name="dialog_msg_txt">16sp</dimen>
+    <dimen name="dialog_cancel_txt">20sp</dimen>
+
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="material_widget_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/material_widget_lib/bin/material_widget_lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

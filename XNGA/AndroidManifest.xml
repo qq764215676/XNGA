@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ys.nlga.activity"
+    android:versionCode="113"
+    android:versionName="1.1.10" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:name="com.refactech.driibo.AppData"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_launcher"
+        android:label="@string/app_name"
+        android:logo="@android:color/transparent"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <activity
+            android:name="ys.oa.activity.WelcomeActivity"
+            android:theme="@style/AppThemeWelcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ch.fshi.btoppnet.BTDeviceListActivity"
+            android:label="Mac地址扫描" >
+        </activity>
+
+        <receiver
+            android:name=".bluetooth.ScanningAlarm"
+            android:enabled="true" >
+        </receiver>
+
+        <activity
+            android:name="com.byaku.gallery.GalleryActivity"
+            android:label=""
+            android:theme="@style/AppThemeGallery" >
+        </activity>
+        <activity
+            android:name="com.byaku.gallery.TouchImageActivity"
+            android:label=""
+            android:theme="@style/AppThemeGallery" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.MainActivity"
+            android:label="兴宁公安警务通"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.MenuActivity"
+            android:label="更多(长按添加功能到主页)" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.LoginActivity"
+            android:label="用户登录" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.GestureLockActivity"
+            android:label="锁屏" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.ChangePwdActivity"
+            android:label="修改密码" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CheckResultMsgActivity"
+            android:label="稽查结果查询" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.NewsActivity"
+            android:label="警务快讯" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.NewsDetailActivity"
+            android:label="资讯详情" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.RecordListActivity"
+            android:label="所有记录" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.RecordDetailActivity"
+            android:label="记录详情"
+            android:theme="@style/AppThemeSwipeBack" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.RecordActivity"
+            android:label="出警记录表" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.RecordHouseActivity"
+            android:label="出租屋检查表" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.RecordHomeActivity"
+            android:label="入户登记表" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.RecordInquestActivity"
+            android:label="现场勘验记录表" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.SearchActivity"
+            android:label="信息查询" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectOrderActivity"
+            android:label="治安管理" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectActivity"
+            android:label="图片信息采集" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.SearchMainActivity"
+            android:label="业务查询" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.SearchInfoActivity"
+            android:label="查询" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectCarActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="车辆信息采集"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectBikeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="车辆信息采集"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectPeopleListActivity"
+            android:label="人员检查"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectCarListActivity"
+            android:label="汽车检查" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectBikeListActivity"
+            android:label="自行车检查" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectGoodListActivity"
+            android:label="物品检查" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CaptureActivity"
+            android:label="二维码拍照" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.PatrolRegActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="巡逻签到" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectGoodActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="物品信息采集"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectHouseActivity"
+            android:label="出租房信息采集" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectRoadActivity"
+            android:label="道路稽查" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.CollectPeopleActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="人员信息采集"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.OtherActivity"
+            android:label="其他" >
+        </activity>
+        <activity
+            android:name="ys.oa.civil.activity.CivilLoginActivity"
+            android:label="用户登陆" >
+        </activity>
+        <activity
+            android:name="ys.oa.civil.activity.CivilMainActivity"
+            android:label="绿城警民通" >
+        </activity>
+        <activity
+            android:name="ys.oa.civil.activity.CivilMenuActivity"
+            android:label="更多(长按添加功能到主页)" >
+        </activity>
+        <activity
+            android:name="ys.oa.civil.activity.ComplaintActivity"
+            android:label="投诉举报" >
+        </activity>
+        <activity
+            android:name="ys.oa.civil.activity.WebActivity"
+            android:label="网上办事"
+            android:theme="@style/AppThemeSwipeBack" >
+        </activity>
+        <activity
+            android:name="ys.oa.civil.activity.PinnedSectionListActivity"
+            android:label="办事大厅" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.SecondMenuActivity"
+            android:label="二级菜单" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.EnforcementView"
+            android:label="执法规范" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.QueryResultListActivity"
+            android:label="查询结果" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.RegListActivity"
+            android:label="巡逻签到列表" >
+        </activity>
+        <activity
+            android:name="ys.oa.activity.ScanCodeActivity"
+            android:label="@string/title_activity_capture" >
+        </activity>
+
+        <provider
+            android:name="ys.oa.provider.DataProvider"
+            android:authorities="ys.nlga.activity.dataps"
+            android:grantUriPermissions="true"
+            android:multiprocess="false"
+            android:process="ys.nlga.activity" />
+
+        <activity
+            android:name=".CheckResultMsgActivity"
+            android:label="@string/title_activity_check_result_msg"
+            android:parentActivityName="ys.oa.activity.BaseActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ys.oa.activity.BaseActivity" />
+        </activity>
+
+        <service
+            android:name="ys.oa.service.QueryService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="ys.oa.service.query" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".CaptureActivity"
+            android:label="@string/title_activity_capture"
+            android:parentActivityName="ys.oa.activity.BaseActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ys.oa.activity.BaseActivity" />
+        </activity>
+        
+        <!-- Bugtags相关配置 -->
+        <activity
+            android:name="com.bugtags.library.BugtagsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <receiver android:name="com.bugtags.library.BugtagsReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.bugtags.library.BugtagsService" />
+    </application>
+
+</manifest>

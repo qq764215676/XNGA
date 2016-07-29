@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView style="@style/WizardPageTitle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="always"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp" >
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_scene_loss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="现场损失情况"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_scene_dispose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="现场处置意见"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_case_property"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="案件性质描述"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_case_unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="涉案单位描述"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_case_method"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="作案手段描述"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_case_feature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="作案特点描述"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_case_tool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="作案工具描述"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_other_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="备注"
+                android:inputType="textMultiLine"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lv_news_item_selector"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="15dp" >
+
+    <TextView
+        android:id="@+id/tv_case_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="案件名"
+        android:textColor="#3c3c3c"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="案件说明 : "
+            android:textColor="#ADADAD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_case_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="黑色钱包"
+            android:textColor="#6C6C6C"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="案发地点 : "
+            android:textColor="#ADADAD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_case_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:text="黑色钱包一个"
+            android:textColor="#6C6C6C"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="案发时间 : "
+            android:textColor="#ADADAD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_case_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014-10-26"
+            android:textColor="#6C6C6C"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

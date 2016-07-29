@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jumping_beans_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jumping_beans_lib/bin/jumping_beans_lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

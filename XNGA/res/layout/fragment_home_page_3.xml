@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res/com.refactech.driibo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView style="@style/WizardPageTitle" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:overScrollMode="always"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp" >
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_house_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="房屋地址"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_house_use"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="房屋用途"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="2dp"
+                android:paddingTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_house_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="房屋面积"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="2dp"
+                android:paddingTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_people_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="居住人数"
+                android:inputType="textMultiLine"
+                android:lineSpacingExtra="2dp"
+                android:paddingTop="20dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_begin_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="出租日期"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+
+            <com.material.widget.FloatingEditText
+                android:id="@+id/et_end_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="注销日期"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                widget:floating_edit_text_color="#ADADAD"
+                widget:floating_edit_text_highlighted_color="@color/bg_color"
+                widget:floating_edit_text_hint_scale="0.8"
+                widget:floating_edit_text_underline_height="1dp"
+                widget:floating_edit_text_underline_highlighted_height="2dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

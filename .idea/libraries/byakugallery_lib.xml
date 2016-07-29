@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="byakugallery_lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ByakuGallery_lib/bin/byakugallery_lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

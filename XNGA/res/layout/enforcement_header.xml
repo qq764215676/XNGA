@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dip"
+    android:background="@drawable/bg_listitem_shot"
+    android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当日稽查总数:"
+                android:textColor="#6C6C6C"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/enf_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0个"
+                android:textColor="#6C6C6C"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="人员检查数目: "
+                android:textColor="#ADADAD"
+                android:textSize="18sp" />
+
+            
+            <TextView
+                android:id="@+id/tv_ppl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="2dp"
+                android:text="0个"
+                android:textColor="#6C6C6C"
+                android:textSize="18sp" />
+        </LinearLayout>
+        
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="汽车稽查数量:"
+                android:textColor="#ADADAD"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_veh_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0个"
+                android:textColor="#6C6C6C"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="摩托车稽查数量:"
+                android:textColor="#ADADAD"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_veh_m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0个"
+                android:textColor="#6C6C6C"
+                android:textSize="18sp" />
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自行车稽查数量:"
+                android:textColor="#ADADAD"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_nveh_z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0个"
+                android:textColor="#6C6C6C"
+                android:textSize="18sp" />
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电动车稽查数量:"
+                android:textColor="#ADADAD"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_nveh_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0个"
+                android:textColor="#6C6C6C"
+                android:textSize="18sp" />
+        </LinearLayout>
+        
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="物品稽查数量:"
+                android:textColor="#ADADAD"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_goods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0个"
+                android:textColor="#6C6C6C"
+                android:textSize="18sp" />
+        </LinearLayout>
+        
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/reg_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="巡逻签到情况（点击查看）"
+                android:textColor="#ADADAD"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+</LinearLayout>

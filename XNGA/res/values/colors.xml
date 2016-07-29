@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dribbble_graphite">#333333</color>
+    <color name="dribbble_pink">#ea4c89</color>
+    <color name="dribbble_green">#8aba56</color>
+    <color name="bg_color">#1a7fcf</color>
+    <color name="bg_msg_blue">#dd1a7fcf</color>
+    <color name="bg_msg_info">#dd272727</color>
+    <color name="bg_bar_progress">#ee0263a9</color>
+    <color name="bg_bar_unprogress">#cc0263a9</color>
+    <color name="bg_bar_secondprogress">#0263a9</color>
+
+    <integer-array name="pocket_bar_colors">
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_1</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_2</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_3</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+        <item>@color/pocket_color_4</item>
+    </integer-array>
+    <integer-array name="pocket_bar_bg_colors">
+        <item>@color/dribbble_pink</item>
+        <item>@color/dribbble_pink</item>
+        <item>@color/dribbble_pink</item>
+        <item>@color/dribbble_pink</item>
+    </integer-array>
+
+    <color name="pocket_color_1">#85edb9</color>
+    <color name="pocket_color_2">#34bdb7</color>
+    <color name="pocket_color_3">#ee4458</color>
+    <color name="pocket_color_4">#fcb74d</color>
+
+</resources>
