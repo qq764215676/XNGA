@@ -13,24 +13,26 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.view.MenuItem;
 
-public class QueryResultListActivity extends BaseActivity{
+public class QueryResultListActivity extends BaseActivity
+{
 
 	private Context context;
 	private QueryResultFragment mContentFragment;
 	private PullToRefreshAttacher mPullToRefreshAttacher;
-	
+
 	@Override
-	protected void onCreate(Bundle arg0) {
+	protected void onCreate(Bundle arg0)
+	{
 		// TODO Auto-generated method stub
 		super.onCreate(arg0);
-		setContentView(R.layout.activity_news);
+		setContentView(R.layout.activity_result);
 		context = this;
 		Util.initExce(this);
 		LockApplication.getInstance().addActivity(this);
 		ActionBar actionBar = getActionBar();
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		actionBar.setTitle("查询结果列表");
-		
+
 		PullToRefreshAttacher.Options options = new PullToRefreshAttacher.Options();
 		options.headerInAnimation = R.anim.pulldown_fade_in;
 		options.headerOutAnimation = R.anim.pulldown_fade_out;
@@ -43,37 +45,42 @@ public class QueryResultListActivity extends BaseActivity{
 		FragmentManager fragmentManager = getSupportFragmentManager();
 		fragmentManager.beginTransaction().replace(R.id.content_frame, mContentFragment).commit();
 	}
-	
-	public PullToRefreshAttacher getPullToRefreshAttacher() {
+
+	public PullToRefreshAttacher getPullToRefreshAttacher()
+	{
 		return mPullToRefreshAttacher;
 	}
-	
+
 	@Override
-	protected void onResume() {
+	protected void onResume()
+	{
 		super.onResume();
 		// 显示九宫格解锁
 		LockApplication.notShowLock = false;
 	}
-	
+
 	@Override
-	public void onBackPressed() {
+	public void onBackPressed()
+	{
 		QueryResultListActivity.this.finish();
-		//back();
+		// back();
 	}
 
-	
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-		case android.R.id.home:
-			onBackPressed();
-			return true;
-		default:
-			return super.onOptionsItemSelected(item);
+	public boolean onOptionsItemSelected(MenuItem item)
+	{
+		switch (item.getItemId())
+		{
+			case android.R.id.home:
+				onBackPressed();
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
 		}
 	}
-	
-	public void back() {
+
+	public void back()
+	{
 		LockApplication.getInstance().exit();
 	}
 }

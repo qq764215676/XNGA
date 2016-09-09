@@ -1,12 +1,68 @@
-<com.hb.views.PinnedSectionListView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@android:id/list"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:cacheColorHint="@android:color/transparent"
-    android:divider="@null"
-    android:dividerHeight="1dp"
-    android:scrollbarStyle="outsideOverlay"
-    android:scrollbars="none"
-    android:footerDividersEnabled="false"
-    android:headerDividersEnabled="false"
-    android:listSelector="@android:color/transparent" />
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0768AF"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:id="@+id/vg_zfgflb_titlebar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5px"
+                android:src="@drawable/l_titlebar_title_zfgflb" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/vg_zfgflb_titlebar_title" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/vg_zfgflb_titlebar_title" >
+
+            <ImageButton
+                android:id="@+id/btn_zfgflb_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/l_previous" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.hb.views.PinnedSectionListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="#D2E9FF"
+        android:dividerHeight="1px"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none" />
+
+</LinearLayout>

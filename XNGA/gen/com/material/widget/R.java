@@ -148,9 +148,9 @@ public final class R {
 		public static final int track_slider_thumb_radius = 0x7f090053;
 	}
 	public static final class drawable {
-		public static final int ic_backward = 0x7f020180;
-		public static final int ic_forward = 0x7f020188;
-		public static final int ic_launcher = 0x7f02018f;
+		public static final int ic_backward = 0x7f020181;
+		public static final int ic_forward = 0x7f020189;
+		public static final int ic_launcher = 0x7f020190;
 	}
 	public static final class id {
 		public static final int Large = 0x7f0f002a;

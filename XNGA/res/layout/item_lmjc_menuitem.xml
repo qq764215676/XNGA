@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_rect"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp" >
+
+    <TextView
+        android:id="@+id/tv_lmjc_menuItem_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/l_lmjc_bg2"
+        android:gravity="center"
+        android:paddingBottom="3dp"
+        android:text="当日稽查"
+        android:textColor="#FFF"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="总数"
+        android:textColor="#B5B5B7"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tv_lmjc_menuItem_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textColor="#0266B1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

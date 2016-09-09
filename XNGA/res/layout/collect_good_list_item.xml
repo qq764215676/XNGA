@@ -1,8 +1,8 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@drawable/lv_news_item_selector"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:paddingBottom="15dp"
     android:paddingLeft="15dp"
     android:paddingRight="15dp"
@@ -10,31 +10,31 @@
 
     <ImageView
         android:id="@+id/iv_img"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="10dp"
-        android:src="@drawable/people_head_bg"
-        android:scaleType="fitXY" />
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#EAEFF3"
+        android:scaleType="fitXY"
+        android:src="@drawable/l_head2" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/iv_img"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
         android:orientation="vertical" >
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
             android:orientation="horizontal" >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="物品名: "
-                android:textColor="#ADADAD"
+                android:textColor="#000"
                 android:textSize="14sp" />
 
             <TextView
@@ -42,20 +42,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="黑色钱包"
-                android:textColor="#6C6C6C"
+                android:textColor="#C9C9C9"
                 android:textSize="14sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
             android:orientation="horizontal" >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="物主: "
-                android:textColor="#ADADAD"
+                android:textColor="#000"
                 android:textSize="14sp" />
 
             <TextView
@@ -64,72 +66,78 @@
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="2dp"
                 android:text="男"
-                android:textColor="#6C6C6C"
+                android:textColor="#C9C9C9"
                 android:textSize="14sp" />
         </LinearLayout>
-        
-         <LinearLayout
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
             android:orientation="horizontal" >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="类型: "
-                android:textColor="#ADADAD"
+                android:textColor="#000"
                 android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/tv_type"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2014-11-26"
-                android:textColor="#6C6C6C"
+                android:text="人员检查"
+                android:textColor="#C9C9C9"
                 android:textSize="14sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
             android:orientation="horizontal" >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="身份证: "
-                android:textColor="#ADADAD"
+                android:textColor="#000"
                 android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/tv_owner_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="31232132"
-                android:textColor="#6C6C6C"
+                android:text="1900"
+                android:textColor="#C9C9C9"
                 android:textSize="14sp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
             android:orientation="horizontal" >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="采集时间: "
-                android:textColor="#ADADAD"
+                android:textColor="#000"
                 android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/tv_collect_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2014-11-26"
-                android:textColor="#6C6C6C"
-                android:textSize="14sp" />
+                android:text="420222"
+                android:textColor="#C9C9C9"
+                android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>

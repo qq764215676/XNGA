@@ -1,180 +1,533 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_centerVertical="true"
-    android:layout_height="match_parent"
-    android:layout_marginLeft="20dip"
-    android:background="@drawable/bg_listitem_shot"
+    android:background="#FFF"
     android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dip"
-            android:orientation="horizontal" >
+            android:layout_weight="1"
+            android:background="@drawable/shape_rect"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp" >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="当日稽查总数:"
-                android:textColor="#6C6C6C"
-                android:textSize="18sp" />
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/l_lmjc_bg2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="当日稽查"
+                android:textColor="#FFF"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="总数"
+                android:textColor="#B5B5B7"
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/enf_count"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0个"
-                android:textColor="#6C6C6C"
-                android:textSize="18sp" />
+                android:text="0"
+                android:textColor="#0266B1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFF" />
+
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dip"
-            android:orientation="horizontal" >
+            android:layout_weight="1"
+            android:background="@drawable/shape_rect"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:id="@+id/tv_lmjclb_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/l_lmjc_bg2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="人员检查"
+                android:textColor="#FFF"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="人员检查数目: "
-                android:textColor="#ADADAD"
-                android:textSize="18sp" />
+                android:text="总数"
+                android:textColor="#B5B5B7"
+                android:textSize="10sp" />
 
-            
             <TextView
                 android:id="@+id/tv_ppl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:lineSpacingExtra="2dp"
-                android:text="0个"
-                android:textColor="#6C6C6C"
-                android:textSize="18sp" />
+                android:text="0"
+                android:textColor="#0266B1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
-        
-           <LinearLayout
-            android:layout_width="match_parent"
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFF" />
+
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dip"
-            android:orientation="horizontal" >
+            android:layout_weight="1"
+            android:background="@drawable/shape_rect"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:id="@+id/tv_lmjclb_car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/l_lmjc_bg2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="汽车稽查"
+                android:textColor="#FFF"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="汽车稽查数量:"
-                android:textColor="#ADADAD"
-                android:textSize="18sp" />
+                android:text="总数"
+                android:textColor="#B5B5B7"
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tv_veh_car"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0个"
-                android:textColor="#6C6C6C"
-                android:textSize="18sp" />
+                android:text="0"
+                android:textColor="#0266B1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFF" />
+
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dip"
-            android:orientation="horizontal" >
+            android:layout_weight="1"
+            android:background="@drawable/shape_rect"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:id="@+id/tv_lmjclb_motor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/l_lmjc_bg2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="摩托车检查"
+                android:textColor="#FFF"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="摩托车稽查数量:"
-                android:textColor="#ADADAD"
-                android:textSize="18sp" />
+                android:text="总数"
+                android:textColor="#B5B5B7"
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tv_veh_m"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0个"
-                android:textColor="#6C6C6C"
-                android:textSize="18sp" />
+                android:text="0"
+                android:textColor="#0266B1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
-        
-         <LinearLayout
-            android:layout_width="match_parent"
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dip"
-            android:orientation="horizontal" >
+            android:layout_weight="1"
+            android:background="@drawable/shape_rect"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:id="@+id/tv_lmjclb_bike"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/l_lmjc_bg2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="自行车检查"
+                android:textColor="#FFF"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="自行车稽查数量:"
-                android:textColor="#ADADAD"
-                android:textSize="18sp" />
+                android:text="总数"
+                android:textColor="#B5B5B7"
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tv_nveh_z"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0个"
-                android:textColor="#6C6C6C"
-                android:textSize="18sp" />
+                android:text="0"
+                android:textColor="#0266B1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
-        
-          <LinearLayout
-            android:layout_width="match_parent"
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFF" />
+
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dip"
-            android:orientation="horizontal" >
+            android:layout_weight="1"
+            android:background="@drawable/shape_rect"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:id="@+id/tv_lmjclb_elect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/l_lmjc_bg2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="电动车检查"
+                android:textColor="#FFF"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="电动车稽查数量:"
-                android:textColor="#ADADAD"
-                android:textSize="18sp" />
+                android:text="总数"
+                android:textColor="#B5B5B7"
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tv_nveh_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0个"
-                android:textColor="#6C6C6C"
-                android:textSize="18sp" />
+                android:text="0"
+                android:textColor="#0266B1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
-        
-           <LinearLayout
-            android:layout_width="match_parent"
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFF" />
+
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dip"
-            android:orientation="horizontal" >
+            android:layout_weight="1"
+            android:background="@drawable/shape_rect"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:id="@+id/tv_lmjclb_goods"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/l_lmjc_bg2"
+                android:gravity="center"
+                android:paddingBottom="3dp"
+                android:text="物品检查"
+                android:textColor="#FFF"
+                android:textSize="12sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="物品稽查数量:"
-                android:textColor="#ADADAD"
-                android:textSize="18sp" />
+                android:text="总数"
+                android:textColor="#B5B5B7"
+                android:textSize="10sp" />
 
             <TextView
                 android:id="@+id/tv_goods"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0个"
-                android:textColor="#6C6C6C"
-                android:textSize="18sp" />
+                android:text="0"
+                android:textColor="#0266B1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
-        
-           <LinearLayout
-            android:layout_width="match_parent"
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#FFF" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_rect"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFF" />
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="5dip"
+            android:text="当日稽查总数:"
+            android:textColor="#6C6C6C"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/enf_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0个"
+            android:textColor="#6C6C6C"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="人员检查数目: "
+            android:textColor="#ADADAD"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_ppl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2dp"
+            android:text="0个"
+            android:textColor="#6C6C6C"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="汽车稽查数量:"
+            android:textColor="#ADADAD"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_veh_car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0个"
+            android:textColor="#6C6C6C"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="摩托车稽查数量:"
+            android:textColor="#ADADAD"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_veh_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0个"
+            android:textColor="#6C6C6C"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自行车稽查数量:"
+            android:textColor="#ADADAD"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_nveh_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0个"
+            android:textColor="#6C6C6C"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电动车稽查数量:"
+            android:textColor="#ADADAD"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_nveh_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0个"
+            android:textColor="#6C6C6C"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="物品稽查数量:"
+            android:textColor="#ADADAD"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_goods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0个"
+            android:textColor="#6C6C6C"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:orientation="horizontal" >
 
-            <TextView
-                android:id="@+id/reg_text"
+            <ImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="巡逻签到情况（点击查看）"
-                android:textColor="#ADADAD"
-                android:textSize="18sp" />
+                android:layout_height="wrap_content" />
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/reg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="巡逻签到情况（点击查看）"
+            android:textColor="#ADADAD"
+            android:textSize="18sp" />
+    </LinearLayout>
+    -->
 
 </LinearLayout>

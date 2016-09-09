@@ -1,309 +1,579 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white"
-    android:fadingEdgeLength="0dp"
-    android:scrollbars="none" >
+    android:background="#EEEEEE"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0768AF"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:id="@+id/vg_ryxxcj_titlebar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5px"
+                android:src="@drawable/l_titlebar_title_xlqd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/vg_ryxxcj_titlebar_title"
+            android:gravity="right" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/vg_ryxxcj_titlebar_title" >
+
+            <ImageButton
+                android:id="@+id/btn_ryxxcj_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/l_previous" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fadingEdgeLength="0dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EEEEEE"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/l_xlqd_bg"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/iv_reg_img"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="4"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center"
+                    android:src="@drawable/l_xxcj_photo" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_listitem_shot"
+                android:orientation="vertical" >
+
+                <!-- 工号 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/l_xlqd_id" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|left"
+                            android:text="警号"
+                            android:textColor="#434A5D"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_reg_id"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left|bottom"
+                            android:text="let5613"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/l_xlqd_info" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|left"
+                            android:text="签到信息"
+                            android:textColor="#434A5D"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_reg_info"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left|bottom"
+                            android:text="http:\\www.baidu.com"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/l_xlqd_add" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|left"
+                            android:text="签到地点"
+                            android:textColor="#434A5D"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_reg_add"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left|bottom"
+                            android:text="黄石市西塞山区"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/btn_reg_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/l_xxcj_location"
+                        android:text="GPS获取"
+                        android:textColor="#6C6C6C"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/l_xlqd_long" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|left"
+                            android:text="签到经度"
+                            android:textColor="#434A5D"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_reg_long"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left|bottom"
+                            android:text="114.5354236"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/l_xlqd_lat" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical|left"
+                            android:text="签到纬度"
+                            android:textColor="#434A5D"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/tv_reg_lat"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="left|bottom"
+                            android:text="114.5354236"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="警号"
+                        android:textColor="#3C3C3C"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:inputType="text"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:singleLine="true"
+                        android:textColor="#6C6C6C"
+                        android:textColorHint="#ADADAD"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                签到信息
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="签到信息"
+                        android:textColor="#3C3C3C"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:maxLines="4"
+                        android:minLines="2"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:textColor="#6C6C6C"
+                        android:textColorHint="#ADADAD"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:text="签到地点"
+                        android:textColor="#3C3C3C"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <ImageButton
+                            android:id="@+id/btn_reg_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/ic_location"
+                            android:text="GPS获取"
+                            android:textColor="#6C6C6C"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/btn_reg_add"
+                            android:background="@android:color/transparent"
+                            android:focusable="false"
+                            android:hint="点击图标获取当前地点"
+                            android:inputType="text"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:singleLine="true"
+                            android:textColor="#6C6C6C"
+                            android:textColorHint="#ADADAD"
+                            android:textSize="20sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                签到经度
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="签到经度"
+                        android:textColor="#3C3C3C"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:inputType="text"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:singleLine="true"
+                        android:textColor="#6C6C6C"
+                        android:textColorHint="#ADADAD"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                签到纬度
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="15dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="签到纬度"
+                        android:textColor="#3C3C3C"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:inputType="text"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:singleLine="true"
+                        android:textColor="#6C6C6C"
+                        android:textColorHint="#ADADAD"
+                        android:textSize="20sp" />
+                </LinearLayout> -->
+
+                <!--
+                     <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/collect_line" />                -->
+                <!--
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp" >
+
+                    <com.gc.materialdesign.views.ButtonFlat
+                        android:id="@+id/btn_reg"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:layout_marginBottom="50dp"
+                        android:background="@color/bg_color"
+                        android:gravity="center"
+                        android:text="签    到"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp" />
+
+                    <FrameLayout
+                        android:id="@+id/fl_reg_loading"
+                        android:layout_width="match_parent"
+                        android:layout_height="44dp"
+                        android:background="@color/bg_color"
+                        android:focusable="false"
+                        android:visibility="gone" >
+
+                        <com.gc.materialdesign.views.ProgressBarIndeterminate
+                            android:id="@+id/pb_reg_loading"
+                            android:layout_width="match_parent"
+                            android:layout_height="3dp"
+                            android:layout_gravity="bottom"
+                            android:background="#8dbfe7" />
+
+                        <TextView
+                            android:id="@+id/tv_reg_loading"
+                            style="@style/LoadingText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginBottom="10dp"
+                            android:text="正在登录......"
+                            android:textColor="@android:color/white" />
+                    </FrameLayout>
+
+                    <ImageView
+                        android:id="@+id/result_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/darker_gray"
+                        android:scaleType="fitXY"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/result_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#D8D8D8"
+                        android:gravity="left|top"
+                        android:padding="10dp"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+                </FrameLayout>                -->
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:orientation="vertical" >
+        android:layout_height="wrap_content" >
 
-        <ImageView
-            android:id="@+id/iv_reg_img"
+        <Button
+            android:id="@+id/btn_reg"
             android:layout_width="match_parent"
-            android:layout_height="230dp"
-            android:layout_margin="5dp"
-            android:focusableInTouchMode="true"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/l_bg_btn"
             android:gravity="center"
-            android:scaleType="fitXY"
-            android:src="@drawable/add_img_bg" />
-
-        <!-- 工号 -->
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingBottom="15dp"
-            android:paddingLeft="30dp"
-            android:paddingRight="10dp"
-            android:paddingTop="15dp" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:text="警号"
-                android:textColor="#3C3C3C"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/tv_reg_id"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                android:inputType="text"
-                android:paddingLeft="5dp"
-                android:paddingRight="5dp"
-                android:singleLine="true"
-                android:textColor="#6C6C6C"
-                android:textColorHint="#ADADAD"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/collect_line" />
-
-        <!-- 签到信息 -->
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingBottom="15dp"
-            android:paddingLeft="30dp"
-            android:paddingRight="10dp"
-            android:paddingTop="15dp" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:text="签到信息"
-                android:textColor="#3C3C3C"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/tv_reg_info"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                android:minLines="2"
-                android:maxLines="4"
-                android:paddingLeft="5dp"
-                android:paddingRight="5dp"
-                android:textColor="#6C6C6C"
-                android:textColorHint="#ADADAD"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/collect_line" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingBottom="10dp"
-            android:paddingLeft="30dp"
-            android:paddingRight="10dp"
-            android:paddingTop="10dp" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="10dp"
-                android:text="签到地点"
-                android:textColor="#3C3C3C"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-
-                <ImageButton
-                    android:id="@+id/btn_reg_add"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:background="@drawable/ic_location"
-                    android:text="GPS获取"
-                    android:textColor="#6C6C6C"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:id="@+id/tv_reg_add"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@+id/btn_reg_add"
-                    android:background="@android:color/transparent"
-                    android:focusable="false"
-                    android:hint="点击图标获取当前地点"
-                    android:inputType="text"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
-                    android:singleLine="true"
-                    android:textColor="#6C6C6C"
-                    android:textColorHint="#ADADAD"
-                    android:textSize="20sp" />
-            </RelativeLayout>
-        </LinearLayout>
-/
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/collect_line" />
-
-        <!-- 签到经度 -->
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingBottom="15dp"
-            android:paddingLeft="30dp"
-            android:paddingRight="10dp"
-            android:paddingTop="15dp" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:text="签到经度"
-                android:textColor="#3C3C3C"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/tv_reg_long"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                android:inputType="text"
-                android:paddingLeft="5dp"
-                android:paddingRight="5dp"
-                android:singleLine="true"
-                android:textColor="#6C6C6C"
-                android:textColorHint="#ADADAD"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/collect_line" />
-
-        <!-- 签到纬度 -->
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingBottom="15dp"
-            android:paddingLeft="30dp"
-            android:paddingRight="10dp"
-            android:paddingTop="15dp" >
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:text="签到纬度"
-                android:textColor="#3C3C3C"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/tv_reg_lat"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@android:color/transparent"
-                android:inputType="text"
-                android:paddingLeft="5dp"
-                android:paddingRight="5dp"
-                android:singleLine="true"
-                android:textColor="#6C6C6C"
-                android:textColorHint="#ADADAD"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/collect_line" />
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="20dp" >
-
-            <com.gc.materialdesign.views.ButtonFlat
-                android:id="@+id/btn_reg"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:layout_marginBottom="50dp"
-                android:background="@color/bg_color"
-                android:gravity="center"
-                android:text="签    到"
-                android:textColor="@android:color/white"
-                android:textSize="18sp" />
-
-            <FrameLayout
-                android:id="@+id/fl_reg_loading"
-                android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:background="@color/bg_color"
-                android:focusable="false"
-                android:visibility="gone" >
-
-                <com.gc.materialdesign.views.ProgressBarIndeterminate
-                    android:id="@+id/pb_reg_loading"
-                    android:layout_width="match_parent"
-                    android:layout_height="3dp"
-                    android:layout_gravity="bottom"
-                    android:background="#8dbfe7" />
-
-                <TextView
-                    android:id="@+id/tv_reg_loading"
-                    style="@style/LoadingText"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginBottom="10dp"
-                    android:text="正在登录......"
-                    android:textColor="@android:color/white" />
-            </FrameLayout>
-
-            <ImageView
-                android:id="@+id/result_image"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/darker_gray"
-                android:scaleType="fitXY"
-                android:visibility="gone" />
-
-            <TextView
-                android:id="@+id/result_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="20dp"
-                android:background="#D8D8D8"
-                android:gravity="left|top"
-                android:padding="10dp"
-                android:textColor="@android:color/black"
-                android:textSize="14sp"
-                android:visibility="gone" />
-        </FrameLayout>
+            android:text="签    到"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
     </LinearLayout>
 
-</ScrollView>
+</LinearLayout>

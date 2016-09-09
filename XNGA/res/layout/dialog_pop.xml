@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:layout_alignParentRight="true"
     android:layout_alignParentTop="true"
-    android:background="#03A9F4"
+    android:background="#5B6378"
     android:orientation="vertical" >
 
     <LinearLayout
@@ -14,13 +14,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:layout_marginTop="5dp"
-        android:background="@drawable/pop_list_selector" >
+        android:layout_marginTop="5dp" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_bg_dialogbtn"
             android:gravity="center"
             android:padding="8dp"
             android:text="人员检查"
@@ -28,26 +28,23 @@
             android:textSize="16sp" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/iv_dl1"
+    <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
-        android:background="@android:color/white" />
+        android:background="#545C71" />
 
     <LinearLayout
         android:id="@+id/ll_pop_car"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:background="@drawable/pop_list_selector" >
+        android:layout_marginRight="5dp" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_bg_dialogbtn"
             android:gravity="center"
             android:padding="8dp"
             android:text="汽车检查"
@@ -55,26 +52,23 @@
             android:textSize="16sp" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/iv_dl2"
+    <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
-        android:background="@android:color/white" />
+        android:background="#545C71" />
 
     <LinearLayout
         android:id="@+id/ll_pop_motor"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:background="@drawable/pop_list_selector" >
+        android:layout_marginRight="5dp" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_bg_dialogbtn"
             android:gravity="center"
             android:padding="8dp"
             android:text="摩托车检查"
@@ -82,13 +76,10 @@
             android:textSize="16sp" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/iv_dl3"
+    <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
-        android:background="@android:color/white" />
+        android:background="#545C71" />
 
     <LinearLayout
         android:id="@+id/ll_pop_bike"
@@ -96,13 +87,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:background="@drawable/pop_list_selector" >
+        android:layout_marginRight="5dp" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_bg_dialogbtn"
             android:gravity="center"
             android:padding="8dp"
             android:text="自行车检查"
@@ -110,13 +101,10 @@
             android:textSize="16sp" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/iv_dl4"
+    <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
-        android:background="@android:color/white" />
+        android:background="#545C71" />
 
     <LinearLayout
         android:id="@+id/ll_pop_elect"
@@ -124,13 +112,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:background="@drawable/pop_list_selector" >
+        android:layout_marginRight="5dp" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_bg_dialogbtn"
             android:gravity="center"
             android:padding="8dp"
             android:text="电动车检查"
@@ -138,13 +126,10 @@
             android:textSize="16sp" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/iv_dl5"
+    <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
-        android:background="@android:color/white" />
+        android:background="#545C71" />
 
     <LinearLayout
         android:id="@+id/ll_pop_goods"
@@ -152,27 +137,24 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:background="@drawable/pop_list_selector" >
+        android:layout_marginRight="5dp" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_bg_dialogbtn"
             android:gravity="center"
             android:padding="8dp"
             android:text="物品检查"
             android:textColor="#fff"
             android:textSize="16sp" />
     </LinearLayout>
-    
-    <ImageView
-        android:id="@+id/iv_dl6"
+
+    <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
-        android:background="@android:color/white" />
+        android:background="#545C71" />
 
     <LinearLayout
         android:id="@+id/ll_pop_reg"
@@ -180,13 +162,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="3dp"
         android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:background="@drawable/pop_list_selector" >
+        android:layout_marginRight="5dp" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:background="@drawable/selector_bg_dialogbtn"
             android:gravity="center"
             android:padding="8dp"
             android:text="巡逻签到"

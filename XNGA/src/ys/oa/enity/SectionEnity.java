@@ -84,6 +84,14 @@ public class SectionEnity implements Serializable {
 		this.activityClass = activityClass;
 		this.title = title;
 	}
+	
+	public SectionEnity(String text, Class<?> activityClass, String title, int iconId) {
+		this.type = ITEM;
+		this.text = text;
+		this.activityClass = activityClass;
+		this.title = title;
+		this.iconId = iconId;
+	}
 
 	public SectionEnity(String text, Class<?> activityClass) {
 		this.type = ITEM;

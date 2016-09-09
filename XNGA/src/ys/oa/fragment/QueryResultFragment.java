@@ -38,6 +38,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
@@ -84,7 +85,7 @@ public class QueryResultFragment extends Fragment implements PullToRefreshAttach
 		mPullToRefreshAttacher = ((QueryResultListActivity) mActivity).getPullToRefreshAttacher();
 		mPullToRefreshAttacher.setRefreshableView(mListView, this);
 		mLoadingFooter = new LoadingFooter(mActivity);
-		bottomLayout = (RelativeLayout)contentView.findViewById(R.id.lay_bottom);
+		bottomLayout = (LinearLayout)contentView.findViewById(R.id.lay_bottom);
 		bottomLayout.setVisibility(View.GONE);
 		mListView.addFooterView(mLoadingFooter.getView());
 
@@ -195,7 +196,7 @@ public class QueryResultFragment extends Fragment implements PullToRefreshAttach
 			return ;
 		}
 
-		mAdapter = new ListCollectPeopleAdapter(mActivity, listAll,"result");
+		mAdapter = new ListCollectPeopleAdapter(mActivity, listAll,"result", mListView);
 		mListView.setAdapter(mAdapter);
 		mPullToRefreshAttacher.setRefreshing(false);
 		mLoadingFooter.setState(LoadingFooter.State.TheEnd);
@@ -242,7 +243,7 @@ public class QueryResultFragment extends Fragment implements PullToRefreshAttach
 	private ArrayList<String> documentId;
 	private ArrayList<SQLDataEntity> enityList, listAll;
 	private Integer index;
-	private RelativeLayout bottomLayout; 
+	private LinearLayout bottomLayout; 
 
 	// 数据请求
 	class AsyncLoader extends AsyncTask<String, Integer, Integer> {
@@ -329,7 +330,7 @@ public class QueryResultFragment extends Fragment implements PullToRefreshAttach
 				break;
 			case 1:
 				listAll = enityList;
-				mAdapter = new ListCollectPeopleAdapter(mActivity, listAll,"result");
+				mAdapter = new ListCollectPeopleAdapter(mActivity, listAll,"result", mListView);
 				AnimationAdapter animationAdapter = new CardsAnimationAdapter(mAdapter);
 				animationAdapter.setListView(mListView);
 				mListView.setAdapter(animationAdapter);

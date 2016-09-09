@@ -16,20 +16,20 @@ public final class R {
 		public static final int shadow_right = 0x7f010006;
 	}
 	public static final class drawable {
-		public static final int ic_launcher = 0x7f02018f;
-		public static final int shadow_bottom = 0x7f02025c;
-		public static final int shadow_left = 0x7f02025e;
-		public static final int shadow_right = 0x7f02025f;
+		public static final int ic_launcher = 0x7f020190;
+		public static final int shadow_bottom = 0x7f020282;
+		public static final int shadow_left = 0x7f020284;
+		public static final int shadow_right = 0x7f020285;
 	}
 	public static final class id {
 		public static final int all = 0x7f0f0022;
 		public static final int bottom = 0x7f0f0023;
 		public static final int left = 0x7f0f0024;
 		public static final int right = 0x7f0f0025;
-		public static final int swipe = 0x7f0f02c2;
+		public static final int swipe = 0x7f0f02cd;
 	}
 	public static final class layout {
-		public static final int swipeback_layout = 0x7f0300cc;
+		public static final int swipeback_layout = 0x7f0300ce;
 	}
 	public static final class style {
 		public static final int SwipeBackLayout = 0x7f0c0007;
