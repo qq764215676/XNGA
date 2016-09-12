@@ -18,7 +18,7 @@
             android:id="@+id/collect_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_listitem_shot" >
+            android:background="@drawable/l_xxcj_bg" >
 
             <ImageView
                 android:id="@+id/iv_collect_img"
@@ -28,12 +28,16 @@
                 android:focusableInTouchMode="true"
                 android:gravity="center"
                 android:scaleType="fitXY"
-                android:src="@drawable/add_img_bg" />
+                android:src="@drawable/l_xxcj_photo" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_roundrect2"
             android:orientation="vertical" >
 
             <LinearLayout
@@ -84,25 +88,23 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginRight="10dp"
-                    android:text="驾驶员身份信息"
                     android:paddingLeft="30dp"
+                    android:text="驾驶员身份信息"
                     android:textColor="#3C3C3C"
                     android:textSize="20sp"
                     android:textStyle="bold" />
-             
-                 <LinearLayout
-                     android:id="@+id/driver_info_view" 
-                     android:layout_width="match_parent"
-                     android:layout_height="wrap_content"
-                     android:orientation="vertical"
-                     android:layout_marginLeft="3dip"
-                     android:layout_centerVertical="true"
-                     android:layout_below="@id/tv_car_owner"
-                     >
-                <include
-                    layout="@layout/collect_add_driver_item_layout"
-				/> 
-				</LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/driver_info_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_car_owner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3dip"
+                    android:orientation="vertical" >
+
+                    <include layout="@layout/collect_add_driver_item_layout" />
+                </LinearLayout>
             </RelativeLayout>
 
             <ImageView
@@ -117,40 +119,43 @@
                 android:paddingBottom="15dp"
                 android:paddingRight="10dp"
                 android:paddingTop="15dp" >
+
                 <TextView
                     android:id="@+id/tv_riders_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
+                    android:paddingLeft="30dp"
                     android:text="同车人信息"
                     android:textColor="#3C3C3C"
-                    android:paddingLeft="30dp"
                     android:textSize="20sp"
                     android:textStyle="bold" />
-                  <LinearLayout
-                     android:id="@+id/riders_info" 
-                     android:layout_width="match_parent"
-                     android:layout_height="wrap_content"
-                     android:orientation="vertical"
-                     android:layout_below="@id/tv_riders_title"
-                     >
+
+                <LinearLayout
+                    android:id="@+id/riders_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_riders_title"
+                    android:orientation="vertical" >
+
                     <ListView
-				         android:id="@+id/riders_info_list" 
-				         android:layout_width="match_parent"
-				         android:layout_height="wrap_content"
-				       />    
-                  </LinearLayout>
-                <Button 
-			        android:id="@+id/read_riders_info"
-			        android:text="添加同车人身份信息"
-			        android:layout_below="@id/riders_info"
-			        android:layout_width="match_parent"
-					android:layout_height="wrap_content"
-					android:padding="10dip" 
-					android:layout_gravity="center"  
-					android:layout_marginLeft="10dip" 
-					android:layout_marginRight="10dip"  
-				/> 
+                        android:id="@+id/riders_info_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/read_riders_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/riders_info"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/l_bg_btn"
+                    android:padding="10dip"
+                    android:text="添加同车人身份信息"
+                    android:textColor="#FFF" />
             </RelativeLayout>
 
             <ImageView
@@ -181,7 +186,6 @@
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:visibility="gone"
                     android:id="@+id/btn_get_bike_id"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -190,7 +194,8 @@
                     android:background="@drawable/ic_scan"
                     android:text="车牌扫描"
                     android:textColor="#6C6C6C"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:visibility="gone" />
 
                 <EditText
                     android:id="@+id/et_bike_id"
@@ -209,13 +214,13 @@
                     android:textColorHint="#ADADAD"
                     android:textSize="20sp" />
             </RelativeLayout>
-            
-              <ImageView
+
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/collect_line" />
 
-          <RelativeLayout
+            <RelativeLayout
                 android:id="@+id/veh_engine_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -237,7 +242,6 @@
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:visibility="gone"
                     android:id="@+id/btn_get_bike_engine_id"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -246,7 +250,8 @@
                     android:background="@drawable/ic_scan"
                     android:text="车牌扫描"
                     android:textColor="#6C6C6C"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:visibility="gone" />
 
                 <EditText
                     android:id="@+id/et_bike_engine_id"
@@ -265,16 +270,16 @@
                     android:textColorHint="#ADADAD"
                     android:textSize="20sp" />
             </RelativeLayout>
-            
-              <ImageView
+
+            <ImageView
                 android:id="@+id/engine_line"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
-                android:background="@drawable/collect_line" />
+                android:background="@drawable/collect_line"
+                android:visibility="gone" />
 
             <RelativeLayout
-             	 android:id="@+id/veh_vin_layout"
+                android:id="@+id/veh_vin_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
@@ -295,7 +300,6 @@
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:visibility="gone"
                     android:id="@+id/btn_get_bike_vin_id"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -304,7 +308,8 @@
                     android:background="@drawable/ic_scan"
                     android:text="车架扫描"
                     android:textColor="#6C6C6C"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:visibility="gone" />
 
                 <EditText
                     android:id="@+id/et_bike_vin_id"
@@ -323,26 +328,23 @@
                     android:textColorHint="#ADADAD"
                     android:textSize="20sp" />
             </RelativeLayout>
-           
 
             <ImageView
-                 android:id="@+id/vin_line"
+                android:id="@+id/vin_line"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
-                android:background="@drawable/collect_line" />
+                android:background="@drawable/collect_line"
+                android:visibility="gone" />
 
-           
-            
-             <RelativeLayout
+            <RelativeLayout
                 android:id="@+id/veh_color_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
                 android:paddingLeft="30dp"
-                android:visibility="gone"
                 android:paddingRight="10dp"
-                android:paddingTop="10dp" >
+                android:paddingTop="10dp"
+                android:visibility="gone" >
 
                 <TextView
                     android:id="@+id/tv_car_color"
@@ -364,9 +366,9 @@
                     android:layout_centerVertical="true"
                     android:background="@drawable/ic_time"
                     android:text="时间获取"
-                    android:visibility="gone"
                     android:textColor="#6C6C6C"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:visibility="gone" />
 
                 <EditText
                     android:id="@+id/et_car_color"
@@ -390,19 +392,18 @@
                 android:id="@+id/color_line"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
-                android:background="@drawable/collect_line" />
-            
-            
+                android:background="@drawable/collect_line"
+                android:visibility="gone" />
+
             <RelativeLayout
                 android:id="@+id/veh_typename_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
                 android:paddingLeft="30dp"
-                android:visibility="gone"
                 android:paddingRight="10dp"
-                android:paddingTop="10dp" >
+                android:paddingTop="10dp"
+                android:visibility="gone" >
 
                 <TextView
                     android:id="@+id/tv_car_typename"
@@ -423,9 +424,9 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:background="@drawable/ic_time"
-                    android:visibility="gone"
                     android:textColor="#6C6C6C"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:visibility="gone" />
 
                 <EditText
                     android:id="@+id/et_car_typename"
@@ -449,8 +450,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/collect_line" />
-            
-             <RelativeLayout
+
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
@@ -554,8 +555,8 @@
                     android:textColorHint="#ADADAD"
                     android:textSize="20sp" />
             </RelativeLayout>
-            
-             <ImageView
+
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/collect_line" />
@@ -582,23 +583,21 @@
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:id="@+id/btn_get_gps"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:background="@drawable/ic_location"
                     android:text="GPS获取"
-                    android:visibility="gone"
                     android:textColor="#6C6C6C"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:visibility="gone" />
 
                 <EditText
                     android:id="@+id/et_long"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@+id/btn_get_gps"
                     android:layout_toRightOf="@+id/tv_long"
                     android:background="@android:color/transparent"
                     android:focusable="false"
@@ -611,7 +610,7 @@
                     android:textColorHint="#ADADAD"
                     android:textSize="20sp" />
             </RelativeLayout>
-            
+
             <ImageView
                 android:id="@+id/lat_line"
                 android:layout_width="match_parent"
@@ -640,23 +639,21 @@
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:id="@+id/btn_get_gps"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:background="@drawable/ic_location"
                     android:text="GPS获取"
-                    android:visibility="gone"
                     android:textColor="#6C6C6C"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:visibility="gone" />
 
                 <EditText
                     android:id="@+id/et_lat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@+id/btn_get_gps"
                     android:layout_toRightOf="@+id/tv_lat"
                     android:background="@android:color/transparent"
                     android:focusable="false"
@@ -670,7 +667,7 @@
                     android:textSize="20sp" />
             </RelativeLayout>
 
-             <ImageView
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/collect_line" />

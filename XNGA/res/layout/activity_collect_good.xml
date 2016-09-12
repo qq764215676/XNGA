@@ -17,7 +17,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_listitem_shot"
+            android:background="@drawable/l_xxcj_bg"
             android:visibility="visible" >
 
             <ImageView
@@ -28,12 +28,16 @@
                 android:focusableInTouchMode="true"
                 android:gravity="center"
                 android:scaleType="fitXY"
-                android:src="@drawable/add_img_bg" />
+                android:src="@drawable/l_xxcj_photo" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_roundrect2"
             android:orientation="vertical" >
 
             <LinearLayout
@@ -71,12 +75,12 @@
                     android:textSize="20sp" />
             </LinearLayout>
 
-		      <RelativeLayout
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:paddingBottom="10dp"
-               android:paddingRight="10dp"
-               android:paddingTop="10dp" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
 
                 <TextView
                     android:id="@+id/tv_car_owner"
@@ -84,180 +88,180 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_marginRight="10dp"
-                    android:text="物主身份信息"
                     android:paddingLeft="30dp"
+                    android:text="物主身份信息"
                     android:textColor="#3C3C3C"
                     android:textSize="20sp"
                     android:textStyle="bold" />
-             
-                 <LinearLayout
-                     android:id="@+id/driver_info_view" 
-                     android:layout_width="match_parent"
-                     android:layout_height="wrap_content"
-                     android:orientation="vertical"
-                     android:layout_marginLeft="3dip"
-                     android:layout_centerVertical="true"
-                     android:layout_below="@id/tv_car_owner"
-                     >
-	                <include
-	                    layout="@layout/collect_add_driver_item_layout"
-					/> 
-				</LinearLayout>
-            </RelativeLayout>
-            
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/collect_line" />
 
                 <LinearLayout
+                    android:id="@+id/driver_info_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:paddingBottom="15dp"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="10dp"
-                    android:paddingTop="15dp" >
+                    android:layout_below="@id/tv_car_owner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3dip"
+                    android:orientation="vertical" >
 
-                    <TextView
-                        android:id="@+id/tv_good_name"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:text="名称"
-                        android:textColor="#3C3C3C"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <EditText
-                        android:id="@+id/et_good_name"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@android:color/transparent"
-                        android:hint="请填写物品名称"
-                        android:inputType="text"
-                        android:paddingLeft="5dp"
-                        android:paddingRight="5dp"
-                        android:singleLine="true"
-                        android:textColor="#6C6C6C"
-                        android:textColorHint="#ADADAD"
-                        android:textSize="20sp" />
+                    <include layout="@layout/collect_add_driver_item_layout" />
                 </LinearLayout>
+            </RelativeLayout>
 
-                <ImageView
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_good_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="名称"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_good_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/collect_line" />
+                    android:background="@android:color/transparent"
+                    android:hint="请填写物品名称"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </LinearLayout>
 
-                <RelativeLayout
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_good_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="时间"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_get_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_time"
+                    android:text="时间获取"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_good_time"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingBottom="10dp"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="10dp"
-                    android:paddingTop="10dp" >
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_time"
+                    android:layout_toRightOf="@+id/tv_good_time"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:hint="点击图标获取当前时间"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
 
-                    <TextView
-                        android:id="@+id/tv_good_time"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentLeft="true"
-                        android:layout_centerVertical="true"
-                        android:layout_marginRight="10dp"
-                        android:text="时间"
-                        android:textColor="#3C3C3C"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
 
-                    <ImageButton
-                        android:id="@+id/btn_get_time"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:layout_centerVertical="true"
-                        android:background="@drawable/ic_time"
-                        android:text="时间获取"
-                        android:textColor="#6C6C6C"
-                        android:textSize="16sp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp" >
 
-                    <EditText
-                        android:id="@+id/et_good_time"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_toLeftOf="@+id/btn_get_time"
-                        android:layout_toRightOf="@+id/tv_good_time"
-                        android:background="@android:color/transparent"
-                        android:focusable="false"
-                        android:hint="点击图标获取当前时间"
-                        android:inputType="text"
-                        android:paddingLeft="5dp"
-                        android:paddingRight="5dp"
-                        android:singleLine="true"
-                        android:textColor="#6C6C6C"
-                        android:textColorHint="#ADADAD"
-                        android:textSize="20sp" />
-                </RelativeLayout>
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="地点"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-                <ImageView
+                <ImageButton
+                    android:id="@+id/btn_get_gps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/ic_location"
+                    android:text="GPS获取"
+                    android:textColor="#6C6C6C"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_location"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/collect_line" />
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/btn_get_gps"
+                    android:layout_toRightOf="@+id/tv_location"
+                    android:background="@android:color/transparent"
+                    android:focusable="false"
+                    android:hint="点击图标获取当前地点"
+                    android:inputType="text"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="10dp"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="10dp"
-                    android:paddingTop="10dp" >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/collect_line" />
 
-                    <TextView
-                        android:id="@+id/tv_location"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentLeft="true"
-                        android:layout_centerVertical="true"
-                        android:layout_marginRight="10dp"
-                        android:text="地点"
-                        android:textColor="#3C3C3C"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <ImageButton
-                        android:id="@+id/btn_get_gps"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:layout_centerVertical="true"
-                        android:background="@drawable/ic_location"
-                        android:text="GPS获取"
-                        android:textColor="#6C6C6C"
-                        android:textSize="16sp" />
-
-                    <EditText
-                        android:id="@+id/et_location"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_toLeftOf="@+id/btn_get_gps"
-                        android:layout_toRightOf="@+id/tv_location"
-                        android:background="@android:color/transparent"
-                        android:focusable="false"
-                        android:hint="点击图标获取当前地点"
-                        android:inputType="text"
-                        android:paddingLeft="5dp"
-                        android:paddingRight="5dp"
-                        android:singleLine="true"
-                        android:textColor="#6C6C6C"
-                        android:textColorHint="#ADADAD"
-                        android:textSize="20sp" />
-                </RelativeLayout>
-                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/collect_line" />
-				     <RelativeLayout
+            <RelativeLayout
                 android:id="@+id/lon_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -279,23 +283,21 @@
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:id="@+id/btn_get_gps"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:background="@drawable/ic_location"
                     android:text="GPS获取"
-                    android:visibility="gone"
                     android:textColor="#6C6C6C"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:visibility="gone" />
 
                 <EditText
                     android:id="@+id/et_long"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@+id/btn_get_gps"
                     android:layout_toRightOf="@+id/tv_long"
                     android:background="@android:color/transparent"
                     android:focusable="false"
@@ -308,14 +310,14 @@
                     android:textColorHint="#ADADAD"
                     android:textSize="20sp" />
             </RelativeLayout>
-            
+
             <ImageView
                 android:id="@+id/lat_line"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/collect_line" />
-               
-				 <RelativeLayout
+
+            <RelativeLayout
                 android:id="@+id/lat_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -337,23 +339,21 @@
                     android:textStyle="bold" />
 
                 <ImageButton
-                    android:id="@+id/btn_get_gps"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:background="@drawable/ic_location"
                     android:text="GPS获取"
-                    android:visibility="gone"
                     android:textColor="#6C6C6C"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:visibility="gone" />
 
                 <EditText
                     android:id="@+id/et_lat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_toLeftOf="@+id/btn_get_gps"
                     android:layout_toRightOf="@+id/tv_lat"
                     android:background="@android:color/transparent"
                     android:focusable="false"
@@ -367,44 +367,44 @@
                     android:textSize="20sp" />
             </RelativeLayout>
 
-             <ImageView
+            <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/collect_line" />
-                
-                <LinearLayout
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:paddingTop="15dp" >
+
+                <TextView
+                    android:id="@+id/tv_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="物品描述"
+                    android:textColor="#3C3C3C"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_info"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:paddingBottom="15dp"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="10dp"
-                    android:paddingTop="15dp" >
-
-                    <TextView
-                        android:id="@+id/tv_info"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="物品描述"
-                        android:textColor="#3C3C3C"
-                        android:textSize="20sp"
-                        android:textStyle="bold" />
-
-                    <EditText
-                        android:id="@+id/et_info"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:background="@android:color/transparent"
-                        android:gravity="top"
-                        android:hint="添加描述"
-                        android:inputType="textMultiLine"
-                        android:lineSpacingExtra="2dp"
-                        android:textColor="#6C6C6C"
-                        android:textColorHint="#ADADAD"
-                        android:textSize="20sp" />
-                </LinearLayout>
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="top"
+                    android:hint="添加描述"
+                    android:inputType="textMultiLine"
+                    android:lineSpacingExtra="2dp"
+                    android:textColor="#6C6C6C"
+                    android:textColorHint="#ADADAD"
+                    android:textSize="20sp" />
             </LinearLayout>
         </LinearLayout>
+    </LinearLayout>
 
 </ScrollView>
